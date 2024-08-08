@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+}
+.login-container {
+    background-color: white;
+    padding: 20px;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.login-container input[type="text"], .login-container input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+}
+.login-container input[type="submit"] {
+    width: 100%;
+    margin-top:20px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+}
+.login-container input[type="submit"]:hover {
+    background-color: lightgreen;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.account-data {
+    margin-top: 20px;
+}
+.account-data p {
+    margin: 5px;
+}
+
+.hidemessage {
+    display: none;
+    color: red;
+    background-color: #f8d7da;
+    padding: 10px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .showmessage {
+    display: block;
+  }
