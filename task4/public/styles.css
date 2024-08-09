@@ -1,63 +1,83 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: lightgrey;
+    background-color: rgb(209, 223, 240);
 }
+
 .login-container {
     background-color: white;
+    border-radius: 8px;
+    border: solid 1px black;
     padding: 20px;
+    margin-bottom: 3em;
 }
+
 .login-container h2 {
     margin-bottom: 20px;
     text-align: center;
 }
-.login-container input[type="text"], .login-container input[type="password"] {
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
     width: 90%;
     padding: 10px;
     margin: 10px;
 }
-.login-container input[type="submit"] {
+
+.login-container button[type="submit"] {
     width: 100%;
-    margin-top:20px;
+    margin-top: 20px;
     padding: 10px;
-    background-color: green;
-    color: white;
+    border: solid 1px black;
+    background-color: lavender;
+    color: black;
     font-size: 16px;
 }
-.login-container input[type="submit"]:hover {
-    background-color: lightgreen;
+
+.login-container button[type="submit"]:hover {
+    background-color: rgb(192, 192, 224);
 }
 
 .container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     background-color: white;
-    padding: 20px;
+    margin-top:10em;
+    padding: 80px;
+    border: solid 1px black;
     border-radius: 8px;
 }
+
 .profile-image {
     width: 150px;
     height: 150px;
+    border: solid 2px black;
     border-radius: 50%;
     margin-bottom: 20px;
 }
+
 .account-data {
     margin-top: 20px;
 }
+
 .account-data p {
     margin: 5px;
 }
 
 .hidemessage {
     display: none;
+}
+
+.showmessage {
+    background-color: white;
     color: red;
-    background-color: #f8d7da;
+    background-color: white;
     padding: 10px;
-    border: 1px solid #f5c6cb;
+    border: 1px solid red;
     border-radius: 5px;
     margin-top: 10px;
-  }
-  
-  .showmessage {
-    display: block;
-  }
+}
